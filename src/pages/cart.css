@@ -1,0 +1,38 @@
+.cartContainer{
+    margin: 10px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+.cartImg{
+    width : 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.cartTitle{
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.cartDetail{
+    display: flex;
+    flex-direction: column;
+}
+.cartImgDetail{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+.removeBtn{
+    margin:20px;
+    cursor: pointer;
+}
+.cartTotalPrice{
+    margin: 20px;
+}
+.emptyCart{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
